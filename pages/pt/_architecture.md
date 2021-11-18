@@ -37,7 +37,7 @@ Idealmente, componentes devem existir em seus próprios partials Sass (dentro da
 * O estilo dos variantes, modificadores e/ou estados do componente;
 * Os estilos dos descendentes (elementos filhos) do componente, se necessário.
 
-Se você quer que seus componentes sejam capazes de serem tematizados externamente (por exemplo: à partir um tema dentro da pasta `themes/`), limite as declaração à apenas estilos estruturais, como dimensões (largura/altura), padding, margin, alignment e etc. Exclua estilos como cores, sombras, fontes, background e etc.
+Se você quer que seus componentes sejam capazes de serem tematizados externamente (por exemplo: a partir de um tema dentro da pasta `themes/`), limite as declaração a apenas estilos estruturais, como dimensões (largura/altura), padding, margin, alignment e etc. Exclua estilos como cores, sombras, fontes, background e etc.
 
 Um partial pode incluir variáveis, placeholder, mixins e funções específicas para componentes. No entanto, mantenha em mente que você deve evitar ficar referenciando (importando) arquivos de componentes de outros arquivos de componentes, já que isso pode fazer o gráfico de dependencia do seu projeto uma bagunça e incapaz de se manter.
 
